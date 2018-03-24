@@ -6,7 +6,7 @@ Keyboard shortcut for searching words on new tab by weblio
 
 ### Installing
 
-* Go to [chrome/extensions](chrome://extensions/) and add it to your chrome extensions as UNPACKED FILE.
+* Go to ["chrome://extensions/"](chrome://extensions/) and add it to your chrome extensions as UNPACKED FILE.
 
 ### How to use
 
