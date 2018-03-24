@@ -1,0 +1,24 @@
+{
+  "name": "weblio quick search",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "you can click words and immediately search it with weblio",
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "node_modules/jquery/dist/jquery.js",
+        "content-script.js"
+      ]
+    }
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+    "<all_urls>",
+    "tabs"
+  ]
+}
